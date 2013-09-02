@@ -44,7 +44,17 @@ Implemented commands
 
  - set
  - get
-
+ - smembers
+ - srem
+ - delete
+ - sadd
+ - publish
+ - hset
+ - hget
+ - hdel
+ - hexists
+ - type
+ - exists
 
 
 Speed
