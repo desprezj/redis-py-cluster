@@ -83,7 +83,7 @@ class RedisCluster(object):
                         continue
 
                     addr = fields[1]
-                    slots = fields[7:]
+                    slots = fields[8:]
                     if addr == ":0":  # this is self
                         addr = "{0}:{1}".format(node["host"], node["port"])
                     addr_ip = addr.split(":")[0]
